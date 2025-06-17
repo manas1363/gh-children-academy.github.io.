@@ -70,3 +70,67 @@
     </footer>
 </body>
 </html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background-color: #ff6699;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about, #programs, #gallery, #contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
